@@ -67,7 +67,13 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
+    //exoplayer
     implementation(libs.androidx.media3.exoplayer)
     implementation(libs.androidx.media3.exoplayer.dash)
     implementation(libs.androidx.media3.ui)
+
+    //viewmodel compose
+    implementation(libs.androidx.activity.compose.v193)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+
 }
